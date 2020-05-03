@@ -2,24 +2,28 @@ package percabangan;
 
 public class Switch {
     public static void main(String[] args) {
-        int jalanJalan=3;
-        switch (jalanJalan){
-            case 1:
-                System.out.println("rengginang");
-                break;
-            case 2:
-                System.out.println("ucing");
-                break;
-            case 3:
-                System.out.println("energen");
-                break;
-            case 4:
-                System.out.println("kulkas 8 pintu");
-                break;
-            default:
-                System.out.println("Anda Ganteng");
-                break;
-
+       char nilai='D';
+       switch (nilai){
+           case 'A':
+               System.out.println("Mhs      : \"Terima kasih pak\"");
+               System.out.println("Dosen    : \"Selamat ya !!\"");
+               break;
+           case 'B':
+               System.out.println("Mhs      : \"Kenapa ulun kada dapat A, pak?\"");
+               System.out.println("Dosen    : \"asdfghjkl\"");
+               break;
+           case 'C':
+               System.out.println("Mhs      : \"Ulun turun tarus Pak, tugas menggawi tarus\"");
+               System.out.println("Dosen    : \"Tapi bisa lah menjawab ujian chunnin?\"");
+               System.out.println("Mhs      : \"55555555\"");
+               break;
+           default:
+               System.out.println("Mhs      : \"Ulun turun tarus Pak, tugas menggawi tarus\"");
+               System.out.println("Dosen    : \"Bujur jua kah?\"");
+               System.out.println("Dosen    : \"*memeriksa berkas\"");
+               System.out.println("Dosen    : \"*Menceleng\"");
+               System.out.println("Mhs      : \"Kabur...\"");
+               break;
 
         }
     }
