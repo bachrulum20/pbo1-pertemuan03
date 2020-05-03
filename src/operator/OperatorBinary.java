@@ -9,5 +9,13 @@ public class OperatorBinary {
     String nama = "Bahrul Ulum";
     int jumlahSks = 24;
     double indeksPrestasiKumulatif = 3.89;
-    
+
+    public static void main(String[] args) {
+        System.out.println(6+2);
+        System.out.println(6-2);
+        System.out.println(6*2);
+        System.out.println(6/2);
+        System.out.println(6%2);
+        System.out.println(6%3);
+    }
 }
